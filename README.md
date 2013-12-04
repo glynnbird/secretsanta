@@ -8,7 +8,7 @@ node secretsanta.js Rita Sue Bob "Alan Sugar"
 ```
 
 i.e. you supply a list people on the command-line and the script will produce a list of whose present is destinted for whom, without paper and guaranteeing
-then a sender can't receive his/her own present.
+that a sender can't receive his/her own present.
 
 ## Installation
 
