@@ -1,13 +1,12 @@
 var _ = require('underscore'),
-  people = require('optimist').argv._,              // ["Glynn","Matt","Dan O","Dan M","Rich","Simon","Paul","Helen","Dave"];
+  people = require('optimist').argv._,   
   done = false;
 
-
+// minimum number of people in a Secret Santa is 2
 if (people.length < 2) {
  console.log("You must have two or more people for a scret santa");
  process.exit();
 }
-
 
 // pick until we have a satisfactory outcome
 do {
@@ -52,6 +51,6 @@ do {
 } while (_.keys(picks).length < people.length); // until we have a full list of picks
 
 // output the answers
-for(var sender in picks) {
-  console.log(sender," ------> ",picks[sender]);
+for (var sender in picks) {
+  console.log(sender, " ------> ", picks[sender]);
 }
