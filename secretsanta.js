@@ -36,7 +36,7 @@ do {
       var j = _.random(0, receivers.length - 1);
     
       // a sender can't give a present to themselves
-      if (j != i) {
+      if (s != receivers[j]) {
         r = receivers[j];
         receivers.splice(j, 1);
       }    
