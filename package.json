@@ -16,5 +16,5 @@
   "bin": {
     "secretsanta": "./bin/secretsanta",
     "secret_santa": "./bin/secretsanta"
-  },
+  }
 }
