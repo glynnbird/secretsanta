@@ -2,21 +2,21 @@
 
 IF you are running a Secret Santa draw in your workplace and need a means of pairing the gifts between sender and receiver, then this is the tool for you. 
 
-
 ## Installation
 
-Run "npm install -g secret_santa" and the run the script.
+You'll need [Node.js](https://nodejs.org/en/) installed. Then run:
 
-## Running secretsanta.js
+```sh
+npm install -g secret_santa
+```
 
-It is a command-line, Node.js script which is run like this (Node.js required):
+## Running
+
+Run `secretsanta` passing it the names of people who have been good:
 
 ```
 secretsanta Rita Sue Bob "Alan Sugar"
 ```
-
-i.e. you supply a list people on the command-line and the script will produce a list of whose present is destined for whom, without paper and guaranteeing
-that a sender can't receive his/her own present.
 
 ## The output
 
