@@ -1,7 +1,7 @@
 {
-  "name": "secretsanta",
-  "version": "0.0.1",
-  "description": "Secret Santa Random Draw Picker",
+  "name": "secret_santa",
+  "version": "1.0.0",
+  "description": "Secret Santa Random Draw Picker command-line tool",
   "main": "index.js",
   "repository": "https://github.com/glynnbird/secretsanta.git",
   "keywords": [
@@ -10,9 +10,7 @@
     "Node.js"
   ],
   "author": "Glynn Bird",
-  "license": "BSD",
+  "license": "Apache-2.0",
   "dependencies": {
-    "optimist": "*",
-    "underscore": "*"
   }
 }

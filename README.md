@@ -5,14 +5,14 @@ IF you are running a Secret Santa draw in your workplace and need a means of pai
 
 ## Installation
 
-Download the repository, run "npm install" and the run the script.
+Run "npm install -g secret_santa" and the run the script.
 
 ## Running secretsanta.js
 
 It is a command-line, Node.js script which is run like this (Node.js required):
 
 ```
-node secretsanta.js Rita Sue Bob "Alan Sugar"
+secretsanta Rita Sue Bob "Alan Sugar"
 ```
 
 i.e. you supply a list people on the command-line and the script will produce a list of whose present is destined for whom, without paper and guaranteeing
